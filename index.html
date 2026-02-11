@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Cardápio • Festa Família Menezes 2026</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  background:#050505;
+  color:#ffffff;
+  font-family:"Cormorant Garamond", serif;
+}
+.wrap{width:92%;max-width:760px;margin:auto;padding-bottom:60px;}
+header{text-align:center;padding:20px 0;}
+.crest{width:110px;margin:auto;display:block;}
+h1{font-family:"Cinzel",serif;text-transform:uppercase;letter-spacing:2px;font-size:26px;margin:10px 0;}
+.tabs{display:flex;overflow-x:auto;background:#0b0b0b;border-bottom:1px solid #333;}
+.tabs button{flex:1;padding:14px;border:none;background:none;color:#fff;font-family:"Cinzel",serif;font-size:13px;cursor:pointer;}
+.tabs button.active{background:#fff;color:#000;}
+.card{background:#111;border-radius:16px;padding:18px;margin-top:20px;}
+.day-title{font-family:"Cinzel",serif;font-size:18px;margin-bottom:6px;}
+.date{font-size:14px;color:#ccc;margin-bottom:12px;}
+details{margin-bottom:14px;border:1px solid #333;border-radius:12px;background:#0f0f0f;}
+summary{padding:14px;font-family:"Cinzel",serif;font-size:14px;cursor:pointer;}
+ul{margin:0;padding:0 18px 14px 30px;font-size:19px;line-height:1.6;}
+footer{text-align:center;margin-top:30px;font-size:14px;color:#aaa;}
+</style>
+</head>
+
+<body>
+
+<header class="wrap">
+  <img src="brasao.png" class="crest" alt="Brasão Família Menezes"/>
+  <h1>Festa Família Menezes 2026</h1>
+</header>
+
+<div class="tabs wrap">
+  <button class="active" onclick="showTab('sab',this)">Sábado</button>
+  <button onclick="showTab('dom',this)">Domingo</button>
+  <button onclick="showTab('seg',this)">Segunda</button>
+  <button onclick="showTab('ter',this)">Terça</button>
+</div>
+
+<main class="wrap">
+
+<section id="sab" class="tab-content">
+  <div class="card">
+    <div class="day-title">Sábado à Noite</div>
+    <div class="date">14/02/2026</div>
+    <details open>
+      <summary>Salgados</summary>
+      <ul>
+        <li>Salgados variados</li>
+        <li>Pelotas com mandioca</li>
+        <li>Batata frita</li>
+        <li>Filezinho de frango empanado</li>
+        <li>Escondidinho de carne</li>
+        <li>Caldo de abóbora</li>
+      </ul>
+    </details>
+  </div>
+</section>
+
+<section id="dom" class="tab-content" style="display:none">
+  <div class="card">
+    <div class="day-title">Domingo</div>
+    <div class="date">15/02/2026</div>
+    <details open><summary>Café (08:00 – 11:30)</summary><ul><li>Biscoitos variados</li></ul></details>
+    <details><summary>Almoço (13:00)</summary>
+      <ul>
+        <li>Arroz branco</li>
+        <li>Tutu de feijão</li>
+        <li>Salada tropical</li>
+        <li>Carne de lata</li>
+        <li>Estrogonofe de frango</li>
+        <li>Macarrão alho e óleo</li>
+      </ul>
+    </details>
+    <details><summary>Sobremesas</summary>
+      <ul>
+        <li>Doce de figo</li>
+        <li>Doce de leite</li>
+        <li>Queijo fresco</li>
+        <li>Pudim</li>
+        <li>Doce de queijo</li>
+      </ul>
+    </details>
+    <details><summary>Churrasco (15:00)</summary>
+      <ul>
+        <li>Pão com pasta de alho</li>
+        <li>Mandioca</li>
+        <li>Maionese</li>
+      </ul>
+    </details>
+    <details><summary>Jantar (20:00)</summary>
+      <ul>
+        <li>Galinhada</li>
+        <li>Salada de legumes</li>
+        <li>Carnes</li>
+      </ul>
+    </details>
+  </div>
+</section>
+
+<section id="seg" class="tab-content" style="display:none">
+  <div class="card">
+    <div class="day-title">Segunda-feira</div>
+    <div class="date">16/02/2026</div>
+    <details open><summary>Café</summary><ul><li>Biscoitos variados</li></ul></details>
+    <details><summary>Almoço</summary>
+      <ul>
+        <li>Arroz branco</li>
+        <li>Feijão de caldo</li>
+        <li>Coxa assada recheada</li>
+        <li>Músculo cozido</li>
+        <li>Mandioca cozida</li>
+        <li>Salada de legumes</li>
+      </ul>
+    </details>
+    <details><summary>Sobremesas</summary>
+      <ul>
+        <li>Doce de figo</li>
+        <li>Doce de leite</li>
+        <li>Queijo fresco</li>
+        <li>Pudim</li>
+        <li>Doce de queijo</li>
+      </ul>
+    </details>
+    <details><summary>Churrasco (15:00)</summary>
+      <ul>
+        <li>Mandioca</li>
+        <li>Torresminho</li>
+      </ul>
+    </details>
+    <details><summary>Jantar (20:00)</summary>
+      <ul>
+        <li>Hambúrguer com pão</li>
+        <li>Pasta de maionese</li>
+        <li>Batata frita</li>
+        <li>Arroz branco</li>
+        <li>Fricassê</li>
+        <li>Macarrão bolonhesa</li>
+        <li>Escondidinho de carne</li>
+      </ul>
+    </details>
+  </div>
+</section>
+
+<section id="ter" class="tab-content" style="display:none">
+  <div class="card">
+    <div class="day-title">Terça-feira</div>
+    <div class="date">17/02/2026</div>
+    <details open><summary>Café</summary><ul><li>Biscoitos variados</li></ul></details>
+    <details><summary>Almoço</summary>
+      <ul>
+        <li>Arroz branco</li>
+        <li>Feijão tropeiro</li>
+        <li>Lasanha de carne e frango</li>
+        <li>Carnes</li>
+        <li>Salada verde com abacaxi</li>
+      </ul>
+    </details>
+    <details><summary>Sobremesas</summary>
+      <ul>
+        <li>Doce de figo</li>
+        <li>Doce de leite</li>
+        <li>Queijo fresco</li>
+        <li>Pudim</li>
+        <li>Doce de queijo</li>
+      </ul>
+    </details>
+  </div>
+</section>
+
+<footer>Festa Família Menezes 2026 • Cardápio Digital</footer>
+
+</main>
+
+<script>
+function showTab(id,btn){
+  document.querySelectorAll('.tab-content').forEach(el=>el.style.display='none');
+  document.getElementById(id).style.display='block';
+  document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+}
+</script>
+
+</body>
+</html>
